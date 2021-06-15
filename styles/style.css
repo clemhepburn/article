@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  width: 100vw;
+  box-sizing: border-box;
+  background-color: #FBFBF8;
+  color: rgb(43, 43, 43)
+}
+
+header, main, footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+header {
+  padding-top: 6rem;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+.title {
+  font-size: 10rem;
+  font-family: 'Quattrocento Sans';
+}
+
+a {
+  text-decoration: none;
+  color:rgb(43, 43, 43);
+  font-family: 'Quattrocento Sans';
+  font-size: 3rem;
+  border: 2px solid black;
+  padding: 1rem;
+}
+
+a:hover {
+  background-color: rgb(43, 43, 43);
+  color: #FBFBF8;
+}
+
+.nav {
+  display: flex;
+  width: 80%;
+  margin-top: 3rem;
+  justify-content: space-evenly;
+}
+
+.current {
+  margin-top: 5rem;
+  font-size: 4rem;
+  /* font-family: 'Quattrocento Sans'; */
+  font-family:'Times New Roman', Times, serif;
+}
+
+.current-content {
+  border: 2px solid black;
+  margin: 1rem;
+  width: 60%;
+  height: 500px;
+}
+
+footer {
+  height: 100px;
+}
